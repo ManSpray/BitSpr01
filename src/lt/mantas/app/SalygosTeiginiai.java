@@ -19,7 +19,5 @@ public class SalygosTeiginiai {
         else {
             System.out.println("Jums balsuoti, kol kas, negalima");
         }
-
-
     }
 }
