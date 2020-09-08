@@ -41,7 +41,13 @@ public class Ciklai {
             String atvirksciai = new StringBuffer(betkas).reverse().toString();
             System.out.println(atvirksciai);
         }
-
-
+        //raidės ir jų index'ai
+        Scanner scan3 = new Scanner(System.in);  // Create a Scanner object
+        System.out.println("Įveskite bet kokį žodį");
+        String betkas = scan3.nextLine();  // Read user input
+        for (int i = 0; i < betkas.length(); i++) {
+            System.out.println(betkas.charAt(i) + " " + (i+1));
+            // System.out.println(" " + (i+1));
+        }
     }
 }
