@@ -25,23 +25,19 @@ public class Funkcijos {
         return min;
     }
     public static int didziausias(int[] b) {
-        // System.out.println(b.length);
         int max = b[0];
         for (int i =0; i<b.length; i++) {
             if (b[i] > max) {
                 max = b[i];
             }
         }
-        // System.out.println(min);
         return max;
     }
     public static int suma(int[] b) {
-        // System.out.println(b.length);
         int suma = 0;
         for (int i =0; i<b.length; i++) {
             suma = suma + b[i];
         }
-        // System.out.println(min);
         return suma;
     }
 
