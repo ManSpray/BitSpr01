@@ -32,7 +32,7 @@ public class ReadWriteAppend2 {
         }
         //-----------------------------------------------------------------------
         try {
-            BufferedWriter bufferedWriter = new BufferedWriter(new FileWriter(new File("b.csv"), true));
+            BufferedWriter bufferedWriter = new BufferedWriter(new FileWriter(new File("./data/a.csv"), true));
             String fileLine = "\nappended file line";
             bufferedWriter.write(fileLine);
             bufferedWriter.close();
